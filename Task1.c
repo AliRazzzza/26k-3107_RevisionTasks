@@ -13,7 +13,10 @@ int main(){
     if(hr < 6 || hr > 22){
         totalfare = (km-1) * 22 + 40 + 50;
 
+    }else{
+        totalfare = (km-1) * 22 + 50;
     }
-    totalfare = (km-1) * 22 + 50;
+    
     printf("Total fare is %.2f\n", totalfare);
+    return 0;
 }
